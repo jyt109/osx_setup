@@ -15,6 +15,9 @@
    - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
    - Activate using `jeffrey.tang09@gmail.com.hdlicense`
 
+4. Install XCode Command Line tool
+
+   `xcode-select --install`
 2. **Install and Setup iTerm as Guake**
 
 
@@ -48,4 +51,6 @@
 
 8. **Pip installs**
  
-   See `requirement.txt`
+   ```bash
+   sudo pip install -r requirements.txt
+   ```
