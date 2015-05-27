@@ -75,5 +75,11 @@
     sudo pip install -r requirements.txt
     ```
     
-12. **Install PyCharm**
-    -
+12. **Install PyCharm / IntelliJ**
+    - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
+    - Download professional versions PyCharm / IntelliJ
+    - **Pycharm**
+      - `Preferences -> Editor -> General -> Change font size (Zoom) with Ctrl+MouseWheel is enabled`
+      - `Preferences -> Editor -> General -> Appearance -> Show line numbers`
+      - `Preferences -> Editor -> Color & Font -> Theme`      
+      - `Preferences -> Appearance & Behavior -> Appearance -> Theme`
