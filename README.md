@@ -158,7 +158,7 @@
     export SPARK_HOME=/Users/jeffreytang/spark-1.3.1-bin-hadoop1
     export PYTHONPATH=$PYTHONPATH:/Users/jeffreytang/spark-1.3.1-bin-hadoop1/python/
     ```
-19. **Install PyCharm / IntelliJ**
+20. **Install PyCharm / IntelliJ**
     - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
     - Download professional versions PyCharm / IntelliJ
     - **Pycharm**
@@ -167,13 +167,23 @@
       - `Preferences -> Editor -> Color & Font -> Theme`      
       - `Preferences -> Appearance & Behavior -> Appearance -> Theme`
 
-20. **Install igraph**
+21. **Install Cassandra**
+
+    ```bash
+    wget http://psg.mtu.edu/pub/apache/cassandra/2.1.5/apache-cassandra-2.1.5-bin.tar.gz
+    tar -xzf apache-cassandra-2.1.5-bin.tar.gz
+    cd apache-cassandra-2.1.5/bin
+    sudo ./cassandra
+    ./cqlsh
+    ```
+    
+22. **Install igraph**
     ```bash
     brew install igraph
     sudo pip install python-igraph
     ```
     
-21. **Install graph-tool**
+23. **Install graph-tool**
     - `brew install graph-tool #Takes 30 mins to an hour`
     - `mkdir -p /Users/jeffreytang/Library/Python/2.7/lib/python/site-packages`
     - `echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/jeffreytang/Library/Python/2.7/lib/python/site-packages/homebrew.pth`    
@@ -191,5 +201,5 @@
     t = Tree( "((a,b),c);" )
     t.show()
     ```
-    
+
 
