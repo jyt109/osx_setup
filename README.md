@@ -1,5 +1,11 @@
 ##OSX Setup (From Scratch - Mavericks)
 
+1. **Add Home Directory to the SideBar of Finder**
+
+   - Press `CMD+SHIFT+H` to enter your Home folder in Finder
+   - Press `CMD+ArrowUp` to get into the Users folder
+   - Drag the folder of your choice to the Sidebar
+
 1. **Install and Setup Divvy**
    - Download Divvy from [http://mizage.com/divvy/](http://mizage.com/divvy/)
    - Click the Divvy icon shown on the upper right of your screen
