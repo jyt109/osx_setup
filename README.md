@@ -20,6 +20,7 @@
    
      ![divvy](images/divvy.png)
    - Click the cogwheel icon and then click `License`. Enter the following details:
+
      ```
      Name:	JeffreyTang
      Code:	GAXAE-F9AXC-M5EAU-UFRKM-RPMMA-NYR9E-8ZPZ9-64JH9-A9KQB-VNRHM-DU6W6-T4Y68-XEPCL-UH76Y-V7B82-H4 
