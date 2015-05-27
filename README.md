@@ -19,7 +19,12 @@
    - Click the Divvy icon shown on the upper right of your screen
    
      ![divvy](images/divvy.png)
- 
+   - Click the cogwheel icon and then click `License`. Enter the following details:
+     ```
+     Name:	JeffreyTang
+     Code:	GAXAE-F9AXC-M5EAU-UFRKM-RPMMA-NYR9E-8ZPZ9-64JH9-A9KQB-VNRHM-DU6W6-T4Y68-XEPCL-UH76Y-V7B82-H4 
+     ``` 
+
 3. **Install and activate Hyperdock**
    - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
    - Activate by double clicking `jeffrey.tang09@gmail.com.hdlicense` in Finder
