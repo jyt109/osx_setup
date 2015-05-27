@@ -40,6 +40,7 @@
 
 5. **Install and Setup iTerm as Guake**
 
+   - See [`iterm_setup.md`](iterm_setup.md)
 
 6. **Install brew**
 
@@ -53,6 +54,9 @@
    brew install maven
    brew install tmux
    brew install cowsay
+   brew install mongodb
+   ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents # Start mongo server on start up
+   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist # Launch mongo server now
    ```
 
 8. **Install zsh**
@@ -74,8 +78,22 @@
     ```bash
     sudo pip install -r requirements.txt
     ```
+12. **Python package patches (Run in Python)**
     
-12. **Install PyCharm / IntelliJ**
+    ```python
+    import nltk
+    nltk.download('all')
+    ```
+    
+13. **Python package patches (Run in Bash)**
+
+    ```
+    sudo pip install numpy --upgrade
+    sudo pip install pandas
+    sudo pip install scipy --upgrade
+    ```
+        
+13. **Install PyCharm / IntelliJ**
     - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
     - Download professional versions PyCharm / IntelliJ
     - **Pycharm**
@@ -83,3 +101,4 @@
       - `Preferences -> Editor -> General -> Appearance -> Show line numbers`
       - `Preferences -> Editor -> Color & Font -> Theme`      
       - `Preferences -> Appearance & Behavior -> Appearance -> Theme`
+      
