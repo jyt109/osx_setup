@@ -9,7 +9,7 @@
 2. **Install and Setup Divvy**
    - Download Divvy from [http://mizage.com/divvy/](http://mizage.com/divvy/)
    - Click the Divvy icon shown on the upper right of your screen
-     ![divvy](divvy.png)
+     ![divvy](images/divvy.png)
  
 3. **Install and activate Hyperdock**
    - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
