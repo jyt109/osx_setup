@@ -34,4 +34,6 @@
 
    - `sudo easy_install pip`
 
-8.
+8. **Pip installs**
+ 
+   See `requirement.txt`
