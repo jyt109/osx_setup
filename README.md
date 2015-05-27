@@ -101,6 +101,7 @@
     sudo pip install scikit-learn
     sudo pip install setuptools --upgrade # have to upgrade setuptools before gensim install
     sudo pip install gensim
+    pip install PIL  --allow-unverified PIL --allow-all-external # For wordcloud
     ```
 
 14. **Install Lasagne and Nolearn**
