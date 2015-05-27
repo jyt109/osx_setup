@@ -16,6 +16,7 @@
    brew install wget
    brew install Caskroom/cask/java
    brew install maven
+   brew install tmux
    ```
 
 5. **Install zsh**
