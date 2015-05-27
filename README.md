@@ -1,5 +1,13 @@
 ##OSX Setup (From Scratch - Mavericks)
 
+###Index
+1. **Add Home Directory to the SideBar of Finder**
+2. **Install and Setup Divvy**
+3. **Install and activate Hyperdock**
+4. **Install XCode Command Line tool**
+
+
+
 1. **Add Home Directory to the SideBar of Finder**
 
    - Press `CMD+SHIFT+H` to enter your Home folder in Finder
@@ -16,7 +24,7 @@
    - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
    - Activate by double clicking `jeffrey.tang09@gmail.com.hdlicense` in Finder
 
-4. Install XCode Command Line tool
+4. **Install XCode Command Line tool**
 
    `xcode-select --install`
 2. **Install and Setup iTerm as Guake**
