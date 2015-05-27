@@ -29,4 +29,9 @@
    - Click **Download**
    - Double click Postgres.app
    - Add `/Applications/Postgres.app/Contents/Versions/9.4/bin` to your $PATH
- 
+
+7. **Install pip**
+
+   - `sudo easy_install pip`
+
+8.
