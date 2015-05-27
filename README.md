@@ -6,7 +6,7 @@
 3. **Install and activate Hyperdock**
 4. **Install XCode Command Line tool**
 
-
+<br>
 
 1. **Add Home Directory to the SideBar of Finder**
 
