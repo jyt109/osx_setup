@@ -24,6 +24,7 @@
    - Restart Shell to activate zshell
 
 6. **Download PostGres App**
+   - Go to [http://postgresapp.com/](http://postgresapp.com/)
    - Click **Download**
    - Double click Postgres.app
    - Add `/Applications/Postgres.app/Contents/Versions/9.4/bin` to your $PATH
