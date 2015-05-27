@@ -13,7 +13,7 @@
  
 3. **Install and activate Hyperdock**
    - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
-   - Activate using `jeffrey.tang09@gmail.com.hdlicense`
+   - Activate by double clicking `jeffrey.tang09@gmail.com.hdlicense` in Finder
 
 4. Install XCode Command Line tool
 
