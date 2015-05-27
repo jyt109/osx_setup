@@ -6,10 +6,14 @@
    - Press `CMD+ArrowUp` to get into the Users folder
    - Drag the folder of your choice to the Sidebar
 
-1. **Install and Setup Divvy**
+2. **Install and Setup Divvy**
    - Download Divvy from [http://mizage.com/divvy/](http://mizage.com/divvy/)
    - Click the Divvy icon shown on the upper right of your screen
  
+3. **Install and activate Hyperdock**
+   - Download HyperDock from [http://hyperdock.bahoom.com/](http://hyperdock.bahoom.com/)
+   - Activate using `jeffrey.tang09@gmail.com.hdlicense`
+
 2. **Install and Setup iTerm as Guake**
 
 
