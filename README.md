@@ -77,6 +77,9 @@
  
     ```bash
     sudo pip install -r requirements.txt
+    sudo easy_install --upgrade numpy
+    sudo pip install pandas
+    sudo easy_install --upgrade scipy
     ```
 12. **Python package patches (Run in Python)**
     
@@ -84,15 +87,7 @@
     import nltk
     nltk.download('all')
     ```
-    
-13. **Python package patches (Run in Bash)**
-
-    ```
-    sudo pip install numpy --upgrade
-    sudo pip install pandas
-    sudo pip install scipy --upgrade
-    ```
-        
+            
 13. **Install PyCharm / IntelliJ**
     - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
     - Download professional versions PyCharm / IntelliJ
