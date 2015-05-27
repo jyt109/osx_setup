@@ -1,6 +1,8 @@
 ##OSX Setup (From Scratch)
 
 1. **Install and Setup Divvy**
+   - Download Divvy from [http://mizage.com/divvy/](http://mizage.com/divvy/)
+   - 
  
 2. **Install and Setup iTerm as Guake**
 
