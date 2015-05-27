@@ -12,4 +12,14 @@
 
    ```bash
    brew install wget
+   brew install Caskroom/cask/java
+   brew install maven
    ```
+
+5. **Install zsh**
+ 
+   - `wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
+   - Restart Shell to activate zshell
+
+6. 
+ 
