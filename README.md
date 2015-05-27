@@ -150,9 +150,14 @@
 19. **Install PySpark**
 
     ```bash
-    
-    ```
+    cd ~
+    wget http://d3kbcqa49mib13.cloudfront.net/spark-1.3.1-bin-hadoop1.tgz
+    tar -xzvf spark-1.3.1-bin-hadoop1.tgz    
 
+    # Add the following lines to ~/.zshrc
+    export SPARK_HOME=/Users/jeffreytang/spark-1.3.1-bin-hadoop1
+    export PYTHONPATH=$PYTHONPATH:/Users/jeffreytang/spark-1.3.1-bin-hadoop1/python/
+    ```
 19. **Install PyCharm / IntelliJ**
     - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
     - Download professional versions PyCharm / IntelliJ
@@ -186,4 +191,5 @@
     t = Tree( "((a,b),c);" )
     t.show()
     ```
+    
 

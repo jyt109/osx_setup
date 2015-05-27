@@ -26,3 +26,4 @@ GDAL
 py4j
 ete2
 pydot
+mercurial
