@@ -123,15 +123,37 @@
     python setup.py build_ext --inplace
     sudo python setup.py install
     ```
-    
-15. **Python package patches (Run in Python)**
+ 
+16. **Download opencv**
+    ```bash
+    brew install opencv
+    ln -s /usr/local/Cellar/opencv/2.4.11_1/lib/python2.7/site-packages/cv.py cv.py
+    ln -s /usr/local/Cellar/opencv/2.4.11_1/lib/python2.7/site-packages/cv2.so cv2.so
+    ```
+        
+17. **Download NLTK data**
     
     ```python
     import nltk
     nltk.download('all')
     ```
-            
-15. **Install PyCharm / IntelliJ**
+
+18. **Install boilerpipe**
+    ```bash
+    cd ~
+    git clone https://github.com/originell/jpype.git
+    cd jpype
+    sudo python setup.py install
+    sudo pip install bolierpipe
+    ```
+    
+19. **Install PySpark**
+
+    ```bash
+    
+    ```
+
+19. **Install PyCharm / IntelliJ**
     - Log in [https://account.jetbrains.com/login](https://account.jetbrains.com/login)
     - Download professional versions PyCharm / IntelliJ
     - **Pycharm**
@@ -139,4 +161,29 @@
       - `Preferences -> Editor -> General -> Appearance -> Show line numbers`
       - `Preferences -> Editor -> Color & Font -> Theme`      
       - `Preferences -> Appearance & Behavior -> Appearance -> Theme`
-      
+
+20. **Install igraph**
+    ```bash
+    brew install igraph
+    sudo pip install python-igraph
+    ```
+    
+21. **Install graph-tool**
+    - `brew install graph-tool #Takes 30 mins to an hour`
+    - `mkdir -p /Users/jeffreytang/Library/Python/2.7/lib/python/site-packages`
+    - `echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/jeffreytang/Library/Python/2.7/lib/python/site-packages/homebrew.pth`    
+
+22. **Install pyqt (for ete2 plotting)**
+
+    ```bash
+    brew install sip
+    brew install pyqt
+    ```
+
+    ```python
+    # Testing if pyqt4 is installed properly
+    from ete2 import Tree
+    t = Tree( "((a,b),c);" )
+    t.show()
+    ```
+
