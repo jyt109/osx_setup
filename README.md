@@ -32,6 +32,7 @@
    brew install Caskroom/cask/java
    brew install maven
    brew install tmux
+   brew install cowsay
    ```
 
 5. **Install zsh**
