@@ -2,5 +2,6 @@
 
 1. Divvy
 2. iTerm Setup
-3. brew
+3. zsh
+4. brew
 
