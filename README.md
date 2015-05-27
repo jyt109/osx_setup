@@ -23,5 +23,8 @@
    - `wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
    - Restart Shell to activate zshell
 
-6. 
+6. **Download PostGres App**
+   - Click **Download**
+   - Double click Postgres.app
+   - Add `/Applications/Postgres.app/Contents/Versions/9.4/bin` to your $PATH
  
