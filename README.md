@@ -77,6 +77,7 @@
    brew install mongodb
    ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents # Start mongo server on start up
    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist # Launch mongo server now
+   brew install youtube-dl
    ```
 
 11. **Install zsh**
