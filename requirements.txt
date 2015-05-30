@@ -25,5 +25,6 @@ ipdb
 GDAL
 py4j
 ete2
+fabric
 pydot
 mercurial
