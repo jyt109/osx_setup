@@ -71,6 +71,8 @@
    brew install postgis
    brew install osm2pgsql
    brew install graphviz
+   brew install cmake # For OpenCV
+   brew install ffmpeg # For OpenCV
    brew link --overwrite gcc
    brew tap homebrew/science
    brew install r
@@ -128,9 +130,12 @@
  
 16. **Download opencv**
     ```bash
-    brew install opencv
-    ln -s /usr/local/Cellar/opencv/2.4.11_1/lib/python2.7/site-packages/cv.py cv.py
-    ln -s /usr/local/Cellar/opencv/2.4.11_1/lib/python2.7/site-packages/cv2.so cv2.so
+    wget https://github.com/Itseez/opencv/archive/3.0.0.zip
+    cd opencv-3.0.0
+    mkdir build
+    cmake -G "Unix Makefiles"
+    make -j8
+    sudo make install
     ```
         
 17. **Download NLTK data**
