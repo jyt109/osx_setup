@@ -29,3 +29,4 @@ fabric
 pydot
 mercurial
 community
+pyimage
