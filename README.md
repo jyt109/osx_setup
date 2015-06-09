@@ -131,6 +131,7 @@
 16. **Download opencv**
     ```bash
     wget https://github.com/Itseez/opencv/archive/3.0.0.zip
+    unzip 3.0.0.zip
     cd opencv-3.0.0
     git clone https://github.com/Itseez/opencv_contrib.git
     mkdir build
